@@ -28,3 +28,18 @@
 
   CarLot.loadInventory(populatePage);
 })();
+
+// Promises way of doing things
+
+// CarLot.loadInventory();
+// .then(
+//   function (inventoryFromLoadInventoryResolve) {
+//     console.log("carPromise", inventoryFromLoadInventoryResolve);
+//     return populatePage(inventoryFromLoadInventoryResolve);
+//   },
+//   function (reason) {
+//     console.error('Something went wrong', reason)
+//   })
+// .then(function() {
+//   CarLot.activateEvents()
+// })

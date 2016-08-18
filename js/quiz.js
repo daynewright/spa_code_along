@@ -10,6 +10,7 @@
     }
       results += `
       <div class="col-md-4 carCard" style="border-color: ${car.color}">
+      <img src="cars/${car.make.toLowerCase()}_${car.model.toLowerCase()}.jpg">
       <h3>${car.make}</h3>
       <h3>${car.model}</h3>
       <h3>${car.year}</h3>
